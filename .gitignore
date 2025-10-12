@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite build output
+dist/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor / OS specific
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# TypeScript build artifacts (만약 TS를 쓴다면)
+*.tsbuildinfo
+
+# Cache
+.cache/
+.vite/
+

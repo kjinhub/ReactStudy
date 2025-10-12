@@ -1,0 +1,33 @@
+.footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.footer-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 60%;
+  margin-right: 8px;
+  outline: none;
+}
+
+.footer-input:focus {
+  border-color: #0066ff;
+}
+
+.footer-btn {
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.footer-btn:hover {
+  background-color: #0052cc;
+}
