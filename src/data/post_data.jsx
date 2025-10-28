@@ -1,0 +1,73 @@
+// 게시판 샘플 데이터
+export const posts = [
+  {
+    id: 1,
+    title: "React 상태관리",
+    body: "useState, useReducer 소개",
+    likes: 3,
+    createdAt: "2025-09-01T09:00:00+09:00",
+  },
+  {
+    id: 2,
+    title: "정렬과 검색",
+    body: "단락평가, nullish 병합, 안정 정렬",
+    likes: 10,
+    createdAt: "2025-09-05T12:00:00+09:00",
+  },
+  {
+    id: 3,
+    title: "네트워킹",
+    body: "HTTP와 비동기",
+    likes: 10,
+    createdAt: "2025-08-28T12:00:00+09:00",
+  },
+  {
+    id: 4,
+    title: "코딩 인터뷰",
+    body: "문자열, 배열, 객체",
+    likes: 0,
+    createdAt: "2025-09-03T08:00:00+09:00",
+  },
+  {
+    id: 5,
+    title: "자바스크립트 기본기",
+    body: "변수, 상수, 자료형, 조건문",
+    likes: 7,
+    createdAt: "2025-07-20T15:30:00+09:00",
+  },
+  {
+    id: 6,
+    title: "비동기 처리",
+    body: "Promise, async/await, 마이크로태스크",
+    likes: 15,
+    createdAt: "2025-08-10T10:00:00+09:00",
+  },
+  {
+    id: 7,
+    title: "Node.js 서버",
+    body: "Express, 미들웨어, 라우팅",
+    likes: 2,
+    createdAt: "2025-08-22T11:45:00+09:00",
+  },
+  {
+    id: 8,
+    title: "데이터베이스",
+    body: "SQL vs NoSQL, MongoDB, MySQL",
+    likes: 12,
+    createdAt: "2025-09-02T17:20:00+09:00",
+  },
+  {
+    id: 9,
+    title: "CSS Flex/Grid",
+    body: "레이아웃 기초, 반응형 UI",
+    likes: 5,
+    createdAt: "2025-08-29T09:15:00+09:00",
+  },
+  {
+    id: 10,
+    title: "테스트 작성법",
+    body: "Jest, react-testing-library 소개",
+    likes: 8,
+    createdAt: "2025-09-04T14:00:00+09:00",
+  },
+];
